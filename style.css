@@ -757,27 +757,22 @@ main {
     margin-top: 10px;
 }
 
-/* -------------------------------------------------------------------------------------- */
-.faq-header h2 {
-    width: 454px;
-    height: 216px;
-    top: 3359px;
-    left: 181px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Raleway;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 72px;
-    text-align: left;
-    color: #252432;
+
+
+/* ---------------------------------------Frequently ask questions----------------------------------------------- */
+
+.faq-ask-ques{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 50px;
+
 }
 
 .faq-header h2 {
-    width: 454px;
+    width: 400px;
     height: 216px;
-    top: 3359px;
-    left: 181px;
     gap: 0px;
     opacity: 0px;
     font-family: Raleway;
@@ -786,32 +781,35 @@ main {
     line-height: 72px;
     text-align: left;
     color: #252432;
+    margin-left: 100px;
+    margin-bottom: 120px;
 }
 
 .content {
-    flex: 2;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 50px;
+    padding-bottom: -50px;
 }
 
 .fap-content{
     width: 696px;
     height: 137px;
-    top: 3262px;
-    left: 632px;
     gap: 0px;
     border-radius: 10px ;
     border: 1px ;
     opacity: 0px;
     background: #FFFFFF;
-    border: 1px solid none ; 
+    border: 1px solid none ;
+    margin-left: -220px;
 }
 
-.fap-content h5 {
-    width: 268px;
+.content .title {
+    width: 696px;
     height: 22px;
-    top: 3286px;
-    left: 662px;
     gap: 0px;
     opacity: 0px;
     font-family: Raleway;
@@ -819,13 +817,15 @@ main {
     font-weight: 700;
     line-height: 21.6px;
     text-align: left;
+    margin-left: 30px ;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: space-between;
 }
 
 .fap-content p {
-    width: 608px;
     height: 48px;
-    top: 3324px;
-    left: 670px;
     gap: 0px;
     opacity: 0px;
     font-family: Inter;
@@ -833,6 +833,7 @@ main {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    margin-left: 30px ; 
 }
 .faq-content p #emi {
     font-family: Inter;
@@ -842,20 +843,50 @@ main {
     text-align: left;
 
 }
+.fap-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 50px;
+}
 
-.faq-item {
+.faq-item p{
     width: 696px;
     height: 70px;
-    top: 3415px;
-    left: 632px;
-    gap: 0px;
     border-radius: 10px ;
     border: 1px ;
     opacity: 0px;
-    background: #FFFFFF;
-    /* background: linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%);
-    border: 1px solid #2B2B2B */
+    color: linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%);
+    border: 1px solid  none; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px;
+
 }
+
+.faq-item .title1{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 10px; /* Adjust the value as needed */
+    margin: 10px;
+    background-color: #FFFFFF;
+    border: 5px solid none;
+    padding: 20px;
+    margin-left: 3px ; 
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+
+}
+
+
 
 hr{
     width: 1440px;
