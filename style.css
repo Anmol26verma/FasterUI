@@ -8,8 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 20px ;
-    padding: 10px;
+    margin-top: 20px ;
     overflow-x: hidden ; 
     background: #F5F8FF;
 
@@ -208,7 +207,185 @@ main {
     color: #252432;
     text-align: left ;
     left: -0px;
-    margin-left: -450px;
+    margin-left: -600px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+
+.box-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    align-items: left;
+    margin-left: -590px;
+}
+
+.box-details {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards-group-1,
+.cards-group-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card {
+    width: 280px;
+    height: 252px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.large-card {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tall-card {
+    width: 280px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item h3 {
+    width: fit-content;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 19.77px;
+    font-weight: 600;
+    line-height: 23.73px;
+    padding-top: 10px ;
+    text-align: left;
+    color: #252432;
+
+}
+
+.item p {
+    width: 231px;
+    height: 84px;
+    top: 896px;
+    left: 138px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #8987A1;
+    padding-top: 30px ;
+
+}
+.item .icon-image {
+    width: 45px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 9px ;
+    opacity: 0px;
+    background: #F5F8FF;
+    padding: 10px;
+    box-sizing: rgba(0, 0, 0, 0.1);
+    color: white;
+
+}
+#img5 {
+    display: inline-flex;
+    gap: 60px;
+}
+
+.item #img1 {
+    width: 200px;
+    height: 200px;
+    gap: 0px;
+    border-radius: 5px ;
+    opacity: 0px;
+    margin-left: 50px;
+
+}
+
+#img4 {
+    width: 220px;
+    height: 240px;
+    gap: 0px;
+    border-radius: 5px ;
+    opacity: 0px;
+    margin-top: 80px;
+}
+
+/* Media queries */
+@media (max-width: 1200px) {
+    .large-card {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .text-and-image {
+        flex-direction: column;
+    }
+
+    .text-and-image img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .box-details {
+        flex-direction: column;
+    }
+
+    .cards-group-1,
+    .cards-group-2 {
+        flex-direction: column;
+    }
+
+    .card,
+    .large-card,
+    .tall-card {
+        width: 100%;
+    }
+
+    .tall-card {
+        height: auto;
+    }
+
+    .text-and-image img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .wwd h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
 }
 
 .container img {
@@ -216,27 +393,6 @@ main {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-}
-.item {
-    width: 280px;
-    height: 252px;
-    top: 762px;
-    left: 112px;
-    gap: 0px;
-    opacity: 0px;
-    border-width: 0px, 0px, 0px, 0px;
-    border-style: solid;
-    border-color: #2B2B2B;
-}
-
-
-.item div img {
-    width: 60px;
-    height: 60px;
-    top: 0px;
-    left: 0px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 
