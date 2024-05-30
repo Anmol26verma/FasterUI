@@ -1,0 +1,24 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 5371px;
+    top: -2053px;
+    left: -1187px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F5F8FF;
+ 
+
+}
+
+
+/* --------------------------------Navabar-------------------------------------- */
+
