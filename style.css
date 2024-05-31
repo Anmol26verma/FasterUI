@@ -1122,3 +1122,52 @@ footer {
     opacity: 0px;
     margin-right: 50px;
 }
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 70px;
+    margin-left: -100px;
+}
+
+.footer-nav a {
+    width: fit-content;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #8987A1;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.footer-social {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 5px;
+    padding-bottom: 20px;
+}
+.footer-social a {
+    width: 48px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F5F8FF;
+    border: 1px solid none;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #252432;
+}
